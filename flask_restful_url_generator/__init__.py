@@ -8,7 +8,6 @@ from flask_restful import Resource
 class UrlList(Resource):
     """ Lists all registered URLs along with docstrings for classes
         and methods """
-
     def __init__(self, **kwargs):
         self.api = kwargs["api"]
 

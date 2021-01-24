@@ -20,26 +20,19 @@ setup(
     author='Olli Jarva',
     author_email='olli@jarva.fi',
     license='BSD',
-
     classifiers=[
         'Development Status :: 4 - Beta',
-
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'License :: OSI Approved :: BSD License',
-
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
     keywords='flask restful',
     packages=["flask_restful_url_generator"],
     install_requires=['flask_restful'],
-
     extras_require={
         'dev': ['twine', 'wheel'],
     },
